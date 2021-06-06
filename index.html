@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!----- definición de html 5 -->
+<html lang="es">
+<!----- definición del lenguaje -->
+<!------Inicio del  HEAD -->
+
+<head>
+    <title>Home-Desing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom -->
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <!----- icono para apple y safari -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.pinimg.com/originals/f9/73/7f/f9737fb9d3d5a04b779971b1bdf09087.png">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <!-- tipo de letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<!-----
+.text-primary  		azul
+.text-secondary		gris
+.text-success		verde
+.text-danger		rojo
+.text-warning		amarillo
+.text-info			celeste
+.text-light			blanco
+.text-dark			negro
+.text-muted			gris oscuro
+.text-white			gris claro
+-->
+<!------------------------------------------------------------------ Fin del  HEAD -->
+
+<body>
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-secondary bg-gradient">
+
+
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand h1 align-baseline" href="index.html">
+
+                <img class="align-baseline" src="https://i.pinimg.com/originals/f9/73/7f/f9737fb9d3d5a04b779971b1bdf09087.png" alt=" " width="40" height="33">
+
+                <span class="text-dark h4 ">Home-</span><span class="color h4 ">Desing</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+				</span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-secondary rounded-pill px-3" href="index.html">Home</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-secondary rounded-pill px-3" href="about.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-secondary rounded-pill px-3" href="work.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-secondary rounded-pill px-3" href="pricing.html">Presupuestos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-secondary rounded-pill px-3" href="contact.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover color'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm color'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm color'></i></a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!----------------------------------------------------------- Fin de los iconos del menu
+
+    <!Close Header -->
+    <!----------------------------------------------------------- Fin del Header-->
+
+    <!-- Start Banner Hero -->
+    <div class="banner-wrapper bg-light">
+        <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+
+            <!-- Start slider -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <!-- class="active" Se requiere un elemento activo inicial
+La .activeclase debe agregarse a una de las diapositivas. De lo contrario, el carrusel no será visible. -->
+
+                <div class="carousel-inner">
+
+                    <!-- Primer elemento del carrousel 
+Ver: https://getbootstrap.com/docs/4.0/components/carousel/  -->
+
+                    <div class="carousel-item active">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-2 pb-5">
+                                <h1 class="banner-heading h1 text-black display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    Diseñamos un<strong class="color"> estilo diferente</strong> de ver tus alrededores.
+                                </h1>
+                                <p class="banner-body text-black py-3">
+                                    <strong class="color">Nos dedicamos al Diseño y Aprovechamientno de tus espacios.</strong>
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!----------------------------------------------------------- Nuevo ITem del Carrousel-->
+
+                    <div class="carousel-item">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-2 pb-5">
+                                <h1 class="banner-heading h1 text-black display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    Las tendencias desaparecen, el <strong class="color">estilo</strong> no.
+                                </h1>
+                                <p class="banner-body text-black py-3">
+                                    <strong class="color">El buen diseño no tiene fecha de caducidad.</strong>
+
+                                </p>
+
+                                <!--role="button" indica que un boton no apunta a una url sino que hace otra cosa-->
+                            </div>
+                        </div>
+
+                    </div>
+                    <!----------------------------------------------------------- Nuevo ITem del Carrousel-->
+                    <div class="carousel-item">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-2 pb-5">
+                                <h1 class="banner-heading h1 text-black display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    Un espacio de vida debe ser un <strong class="color">santuario</strong>.
+                                </h1>
+                                <p class="banner-body text-black py-3 ">
+                                    <strong class="color">Tu hogar debe contar la historia de quien eres.</strong>
+
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-------------------------------------------------------Flechas del carrousel   -->
+                <a class="carousel-control-prev text-decoration-none color" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <i class='bx bx-chevron-left'></i>
+                    <span class="visually-hidden">Ant.</span>
+                </a>
+                <a class="carousel-control-next text-decoration-none color" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <i class='bx bx-chevron-right'></i>
+                    <span class="visually-hidden">Prox.</span>
+                </a>
+            </div>
+            <!-- bx-chevron-right y left son las puntas de flecha del carrousel -->
+            <!-- End slider -->
+
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-3">
+            <div class="row">
+                <h2 class="h2 text-center col-12 py-5 semi-bold-600">Nuestros servicios</h2>
+            </div>
+        </div>
+
+        <div class="service-tag py-5 bg-secondary bg-gradient">
+            <div class="col-md-12">
+                <ul class="nav d-flex justify-content-center">
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-secondary active shadow rounded-pill text-dark px-4 light-300" href="#" data-filter=".project">Todo</a>
+                        <!-- btn-outline = boton transparente -->
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-secondary rounded-pill text-dark px-4 light-300" href="#" data-filter=".oficina">Armado de Oficinas</a>
+                    </li>
+                    <li class="filter-btn nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-secondary rounded-pill text-dark px-4 light-300" href="#" data-filter=".interiores">Interiorismo</a>
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-secondary rounded-pill text-dark px-4 light-300" href="#" data-filter=".remodelacion">Remodelación y refacciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container overflow-hidden py-5">
+        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+
+            <!-- Comienzan los trabajos recientes -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project remodelacion">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/84e793f2b4f64219e9529db9d55808dd.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Remodelación</span>
+                            <p class="card-text">Remodelacion de Baños</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project oficina">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/oficina-ventilación-industrial.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Oficinas</span>
+                            <p class="card-text">Armado de Oficinas</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project interiores">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/WhatsApp-Image-2019-03-26-at-1.36.40-PM.jpeg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Interiores</span>
+                            <p class="card-text">Diseño de sanitarios</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project remodelacion">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/c280c3006ae6e4164afe7d5c0e52ab3e.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Remodelación</span>
+                            <p class="card-text">Remodelación de living</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project oficina">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/requenayplaza-proyectos-arquitectura-interiorismo-amueblamiento-oficinas-commerzbank-madrid.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Oficinas</span>
+                            <p class="card-text">Reestructuración de oficinas</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project interiores">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/WhatsApp-Image-2019-03-29-at-10.18.15-AM.jpeg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Interiores</span>
+                            <p class="card-text">Armado de Cocina-comedor</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project remodelacion">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/d6fda194db12ce46edc7059e6af77285.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Remodelación</span>
+                            <p class="card-text">Refacción de Parquet</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project oficina">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/Lighting-adds-an-industrial-touch-to-the-home-office.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Oficinas</span>
+                            <p class="card-text">Rediseños de Oficinas</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project interiores">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/WhatsApp-Image-2019-03-14-at-10.24.48-AM-1.jpeg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Interiores</span>
+                            <p class="card-text">Rediseño de Habitaciones</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project remodelacion">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/04e12b9386bd1995c960669321d4a0b8.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Remodelación</span>
+                            <p class="card-text">Refacción de sanitarios</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project oficina">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/005-38-newbury-st-home-touloukian-touloukian-1050x718.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Oficinas</span>
+                            <p class="card-text">Remodelación de oficinas</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project interiores">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="https://reforchi.com.ar/wp-content/uploads/2019/09/WhatsApp-Image-2019-03-29-at-10.18.16-AM.jpeg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Interiores</span>
+                            <p class="card-text">Diseño de cocinas.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+        </div>
+    </section>
+    <!-- End Service -->
+
+
+
+
+
+    <!-- Start Recent Work -->
+    <section class="py-5 mb-5">
+        <div class="container">
+            <div class="recent-work-header row text-center pb-5">
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Algunos Clientes</h2>
+            </div>
+            <div class="row gy-5 g-lg-5 mb-4">
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="http://www.lideargentina.com/image/view/NW000_1000229" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Remax</h3>
+                                <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="https://enbuenosaires.s3.amazonaws.com/uploads/logos/2010/11/08/2010_11_08_19_20_21_295_21444466111572130382-display.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Predial</h3>
+                                <p class="card-text">Psum officia anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="http://villasana.com.ar/imgs/portales/Zonaprop.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">ZonaProp.</h3>
+                                <p class="card-text">Sum dolor sit consencutur</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="https://www.entornoturistico.com/wp-content/uploads/2017/05/airbnb-rosa.png" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Airbnb</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHAVQNXTP6sag/company-logo_200_200/0/1618845406879?e=2159024400&v=beta&t=s1HN9C8R1XPVF4IoA2gg3jPrtwkBRrq64GXAhU1T4vw" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Korn Propiedades</h3>
+                                <p class="card-text">Put enim ad minim veniam</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="https://argenprop-noticias.s3.us-west-2.amazonaws.com/20160923183906/01_ToribioA-1400x648.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Toribio Achaval</h3>
+                                <p class="card-text">Mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+
+            </div>
+        </div>
+    </section>
+    <!-- End Recent Work -->
+
+
+
+    <!-- Start Footer -->
+    <footer class="bg-secondary pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="align-baseline" src="https://i.pinimg.com/originals/f9/73/7f/f9737fb9d3d5a04b779971b1bdf09087.png" alt=" " width="40" height="33">
+                        <span class="text-light h5">Home-</span><span class="h5 semi-bold-600 color">Desing</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Seguinos en nuestras redes Sociales.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-1">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-1">
+                            <a class="text-light" target="_blank" href="https://twitter.com/">
+                                <i class='bx bxl-twitter bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-1">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-1">
+                            <a class="text-light" target="_blank" href="https://www.skype.com/es/">
+                                <i class='bx bxl-skype bx-md'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.html">Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.html">Trabajos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.html">Precios</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Trabajos</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Armado de Oficinas</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Interiorismo</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Remodelación y refacciones</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">At. al Cliente:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">0221-354-4568</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">home@desing.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-secondary bg-gradient py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 Home-Desing. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por<a rel="sponsored" class="text-decoration-none text-light" target="_blank"><strong> Leonardo J.</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
